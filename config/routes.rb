@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
+  root 'pages#home'
   resources :books
   devise_for :users
-  root 'pages#home'
+
 
   get 'dashboard' => "pages#dashboard"
 
