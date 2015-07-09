@@ -20,6 +20,8 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'dotenv-rails', groups: [:development]
+
+gem 'aws-sdk'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'cancan'
