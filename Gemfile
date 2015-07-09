@@ -23,6 +23,7 @@ gem 'dotenv-rails', groups: [:development]
 
 gem 'aws-sdk', '< 2.0'
 gem 'friendly_id'
+gem 'stripe'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'cancan'
